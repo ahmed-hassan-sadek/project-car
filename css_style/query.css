@@ -1,0 +1,73 @@
+/*  start media query html for 1200px*/
+@media screen and (max-width:1200px)
+{
+    .section2 , .section3 , .section3 .text .icons , .section4 , .section5 ,.section6 , .section7 , .section8 ,.section10
+    {
+     	display: grid;
+    	grid-template-columns: auto;
+	}
+	
+	.section9 .picture
+	{
+		display: grid;
+    	grid-template-columns: auto auto;
+	}
+
+}
+/*  end media query html for 1200px*/
+/*  start media query html for 900px*/
+@media screen and (max-width:900px)
+{
+	header h2
+    {
+        border-bottom: 2px solid white;
+        padding-bottom: 10px;
+    }
+    header
+    {
+        padding-top: 10px;
+        display: flex;
+        height: auto;
+        justify-content: center;
+        flex-direction: column
+    }
+
+    .section2 , .section3 , .section3 .text .icons , .section4 , .section5 ,.section6 , .section7 , .section8 ,.section10
+    {
+     	display: grid;
+    	grid-template-columns: auto;
+	}
+	
+	.section9 .picture
+	{
+		display: grid;
+    	grid-template-columns: auto auto;
+	}
+
+
+}
+/*  end media query html for 900px*/
+/*  start media query html for 762px*/
+@media screen and (max-width:762px)
+{
+	header h2
+    {
+        border-bottom: 2px solid white;
+        padding-bottom: 10px;
+    }
+    header
+    {
+        padding-top: 10px;
+        display: flex;
+        height: auto;
+        justify-content: center;
+        flex-direction: column
+    }
+
+    .section2 , .section3 , .section3 .text .icons , .section4 , .section5 ,.section6 , .section7 , .section8 ,.section10,.section9 .picture
+    {
+     	display: grid;
+    	grid-template-columns: auto;
+	}
+}
+/*  end media query html for 762px*/
